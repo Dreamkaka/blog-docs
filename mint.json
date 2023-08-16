@@ -1,17 +1,17 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "晓寒の博客魔改文档",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#55bb8a",
+    "light": "#2c9678",
+    "dark": "#20a162",
     "background": {
-      "dark": "#090014"
+      "dark": "#20a162"
     },
     "anchors": {
       "from": "#FF7F57",
@@ -20,13 +20,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "作者博客",
+      "url": "https://xiaohan.xfcloud.org"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "API文档",
+    "url": "https://xiaohan-apidocs.apifox.cn/"
   },
   "tabs": [
     {
@@ -40,16 +40,7 @@
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
+    
   ],
   "navigation": [
     {
@@ -77,6 +68,5 @@
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
     "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
